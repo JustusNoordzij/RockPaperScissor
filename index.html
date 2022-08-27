@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     
     <title>Document</title>
 </head>
 <body>
-    <form id="reset">
-        <h2 class="score-info" id="scoreInfo">Choose your pokemon</h2>
-        <p class="score" id="playerScore">Player: 0</p>
-        <p class="score" id="computerScore">Computer: 0</p>
-        <p class="winner" id="winner">winner: 0</p>
+    
+        <h2 class="score-info" id="scoreInfo">Choose rock paper or scissors</h2>
+    <div class="scoreboard">
+        <ul>
+            <li>
+                <p class="score" id="playerScore">Player: 0</p>
+                <p class="score" id="computerScore">Computer: 0</p>
+                <p class="winner" id="winner">winner: 0</p>
+            </li>
+        </ul>
         <p class="scoreMess" id="scoreMess"> </p>
-        <input type="button" onclick="window.location.reload();" value="reset game">
-    </form>
+    </div>
     
 
-    <div id="button-box">
-        <button id="rock">bulbasaur</button>
-        <button id="paper">charmander</button>
-        <button id="scissors">squirtle</button>
+    <div class="button-box">
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">scissors</button>
+    </div>
+    <div class="reset">
+        <input type="button" onclick="window.location.reload();" value="reset game">
     </div>
 
     
