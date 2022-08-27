@@ -8,7 +8,24 @@
     <title>Document</title>
 </head>
 <body>
+    <form id="reset">
+        <h2 class="score-info" id="scoreInfo">Choose your pokemon</h2>
+        <p class="score" id="playerScore">Player: 0</p>
+        <p class="score" id="computerScore">Computer: 0</p>
+        <p class="winner" id="winner">winner: 0</p>
+        <p class="scoreMess" id="scoreMess"> </p>
+        <input type="button" onclick="window.location.reload();" value="reset game">
+    </form>
     
+
+    <div id="button-box">
+        <button id="rock">bulbasaur</button>
+        <button id="paper">charmander</button>
+        <button id="scissors">squirtle</button>
+    </div>
+
+    
+
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
