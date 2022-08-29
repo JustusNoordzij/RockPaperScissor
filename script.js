@@ -84,9 +84,6 @@ const scoreInfo = document.getElementById('scoreInfo');
 const playerScorePara = document.getElementById('playerScore');
 const computerScorePara = document.getElementById('computerScore');
 const winner = document.getElementById('winner');
-const scoreMess = document.getElementById('scoreMess');
-
-
 
 
 
